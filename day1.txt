@@ -1,3 +1,7 @@
 This is Day1. Changed with new data.
 New Data Added Now.
+<<<<<<< HEAD
 I have made feature2 branch in this file
+=======
+New data update here!
+>>>>>>> d19fd77d34de0357f7bbcb2c848bc0e2d4070f8e
