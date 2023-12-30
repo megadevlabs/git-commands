@@ -68,4 +68,4 @@ git checkout "branchname" (Switch Branch)
 git branch -d "branchname" (Delete Branch)
 
 # Merge
-git merge "dev" (current branch to merge branch)
+git merge "dev" (current(where to merge) branch to merge branch(from branch))
