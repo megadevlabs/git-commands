@@ -1,0 +1,58 @@
+git --version
+git config --global user.name "Md Salahuddin Khan"
+git config --global user.email "cisrony@gmail.com"
+git config --list
+
+git init
+git ls / git ls -a
+git status
+
+git add "filename"
+git add -A (All Directories and Subdirectories will be Stage)
+git add . (All Directories will be Stage But Not Subdirectories)
+git add *.js (Directory wildcard)
+git add **/*.js (Directory & Subdirectory wildcard)
+
+git restore "Filename"
+git rm --cached "filename" (to unstage)
+
+git diff (Checking the difference)
+
+git commit -m "Message Here"
+git commit -am "Message Here" (Stage and Commiting directly)
+git add . && git commit -am "Message Here" (Stage and Commiting directly)
+
+git log (to see the commit history)
+
+# Uncommit (Not will be undo)
+git reset --soft HEAD^ (to Recent commit will be undo or Uncommit)
+git reset HEAD^ (to Recent commit will be undo & Remove from staging area)
+git reset --hard HEAD^ (to completely undo, throwing all uncommitted changes & resetting everything to previous last commit situation position)
+
+# HEAD, Commit
+git log
+git log --oneline
+
+git show "commit_id"
+git show HEAD~number
+
+# Undo
+
+git checkout "commit_id/HEAD number" (Safely change all commit situation without remove something, this one best for reset command)
+git checkout master (return to last/recent commit situation)
+
+# gitignore (to adding below lines as per your requirements)
+
+Command -> touch .gitignore
+
+test.txt (Ignore this file)
+.env (Ignore this file)
+*.txt (Ignore all txt files)
+!main.txt (Donot Ignore this file)
+test?.txt (Ignore this file [?] like test1.txt, test2.txt, test3.txt)
+temp/ (Ignore this Temp directory and all files)
+
+#Remote Repository Connect
+git remote add origin <REMOTE_URL>
+
+
