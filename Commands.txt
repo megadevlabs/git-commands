@@ -57,4 +57,7 @@ git remote add origin <REMOTE_URL>
 git branch -M main
 git push -u origin main
 
+# Pull to remote repository
+git pull
+
 
