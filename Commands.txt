@@ -67,3 +67,5 @@ git checkout -b "branchname" (Will be create and switch branch)
 git checkout "branchname" (Switch Branch)
 git branch -d "branchname" (Delete Branch)
 
+# Merge
+git merge "dev" (current branch to merge branch)
