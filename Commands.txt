@@ -54,5 +54,7 @@ temp/ (Ignore this Temp directory and all files)
 
 #Remote Repository Connect
 git remote add origin <REMOTE_URL>
+git branch -M main
+git push -u origin main
 
 
