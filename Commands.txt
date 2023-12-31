@@ -72,3 +72,12 @@ git push -all origin (this command to push all branches to your remote repositor
 
 # Merge
 git merge "dev" (current(where to merge) branch to merge branch(from branch))
+
+# .SSH Key Generate. SSH Means - Secure Shall
+CMD -> go to Root Directoey (cd ~) -> check .ssh folder (ls -a) -> cd .ssh -> ssh-keygen -o -t tsa -C cisrony@gmailcom
+
+Check key generated -> ls
+Key use for open using code editor -> code id_rsa.pub -> copy that key
+
+Go to github account visual by browser -> go to settings -> SSH and GPG Keys -> SSH Keys (New SSH Key) -> Title and Key past and Save
+
