@@ -60,15 +60,21 @@ git push -u origin main
 # Pull to remote repository
 git pull
 
+# Git merge Conflict Resolved
+git pull origin "branchName" (First should pull all files from targeted beanch then resolve locally and again push theme to your github branch)
+
 # Branching
 git branch (for check branch list)
 git branch "branchname" (Create New Branch)
 git checkout -b "branchname" (Will be create and switch branch)
+git push -u origin development (Locally Created Branch will be push in Github Live with project source code)
 git checkout "branchname" (Switch Branch)
 git branch -d "branchname" (Delete Branch)
 
 # Push all branch local to remote
-git push -all origin (this command to push all branches to your remote repository)
+git push -all origin (this command to push all branches to your remote repository) -> This command for all branches push to Github
+
+git push -u origin "branchName" (This command use for only this branch and al of source files push to github live)
 
 # Merge
 git merge "dev" (current(where to merge) branch to merge branch(from branch))
